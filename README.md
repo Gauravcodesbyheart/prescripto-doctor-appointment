@@ -95,19 +95,25 @@ Versatile options: On-site cash, or digital via Stripe/Razorpay.
 Prioritizes security and user convenience for frictionless experiences.
 
 🌐 Local Setup Guide
-To run the project on your machine:
-
-Clone the Repository:textgit clone https://github.com/your-username/prescripto.git
+<b>To set up and run this project locally:</b>
+1. Clone the Repository:
+git clone https://github.com/your-username/prescripto.git
 cd prescripto
-Install Dependencies:textnpm install
+
+2.Install Dependencies:
+npm install
 cd client
 npm install
-Configure Environment Variables:
-Create a .env file in the root folder with:textMONGO_URI=your_mongodb_connection_string
+
+3.Environment Variables:
+Create a .env file in the root directory and add the following:
+MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_API_KEY=your_stripe_api_key
 RAZORPAY_API_KEY=your_razorpay_api_key
-Launch the Application:textnpm run dev
+
+4.Run the Application:
+npm run dev
 
 📦 Project Structure
 textprescripto/
